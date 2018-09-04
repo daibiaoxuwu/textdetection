@@ -2,33 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e5ff10e-8bee-4606-bdbf-7bf7811cc263" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../djl4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/Main3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/People.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/out/production/pa_djl/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/pa_djl.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/src/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/src/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/src/temp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/test.in" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pa_gyq2/test.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pa11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pa11/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pa11/src/com/company/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pa11/src/com/company/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../persons/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persons/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../persons/src/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persons/src/Man.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../persons/src/SuperMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../persons/src/SuperMan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../djl4/src/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Main1_1大整数加法.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Main1_1大整数加法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Main1_2挑选第n小的质数.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Main1_2挑选第n小的质数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Main1_3矩阵相乘.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Main1_3矩阵相乘.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Main1_4合法标识符.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Main1_4合法标识符.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Main2_1打卡.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Main2_1打卡.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Main4_1解析html.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Main4_1解析html.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g1_1_new大整数加法.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g1_1_new大整数加法.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g1_2挑选第n小的质数.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g1_2挑选第n小的质数.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g1_3矩阵相乘.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g1_3矩阵相乘.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g1_4合法标识符.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g1_4合法标识符.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g2_1打卡.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g2_1打卡.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g3_1文件读写打卡.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g3_1文件读写打卡.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g3_2文件检索.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g3_2文件检索.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../djl4/src/g3_3链表.java" beforeDir="false" afterPath="$PROJECT_DIR$/../djl4/src/g3_3链表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,36 +35,84 @@
     <session id="1199402347">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="331" />
+          <entry key="java" value="1642" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="331" />
+          <entry key="JAVA" value="1642" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.file.types.open" />
-      <usages-collector id="statistics.file.extensions.open" />
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="288">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Main2.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/WeChat/WeChat Files/daibiaoxuwu/Files/ConnectionUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../djl4/src/Main5_1爬虫.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,13 +122,23 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="D:/WeChat/WeChat Files/daibiaoxuwu/Files/ConnectionUtil.java" />
+        <option value="$PROJECT_DIR$/src/Main2.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main3.java" />
       </list>
     </option>
   </component>
@@ -96,16 +148,36 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled" />
@@ -130,8 +202,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main3" />
+      <module name="untitled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main3" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -150,7 +234,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -158,14 +242,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -178,13 +262,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://D:/WeChat/WeChat Files/daibiaoxuwu/Files/ConnectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state>
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../djl4/src/Main5_1爬虫.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>

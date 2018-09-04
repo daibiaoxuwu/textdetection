@@ -1,8 +1,8 @@
-package com.company;
+;
 
 import java.util.*;
 
-public class Main3 {
+class Main1_3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[][][] mem = new int[2][][];

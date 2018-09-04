@@ -3,8 +3,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
-//TODO:多文件默认包名字
-class  Main3 {
+class  Main3_3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         LinkedList<Integer> num1=new LinkedList<>();
