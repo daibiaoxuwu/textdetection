@@ -24,21 +24,25 @@ public class Main13 extends JFrame {
 //        colors[1]=Color.red;
 //        colors[2]=Color.orange;
 //        colors[3]=Color.black;
-        final Double[] truth = {920d, 182d};
+        final Double[] truth = {1100d, 191d};
         for (int i = 0; i < 1; i++) {
 
             final List<Double[]> truecorrdinatelist = new ArrayList<>();
             final List<Integer> direction = new ArrayList<>();
 
             //构建truecorrdinatelist 真实点表
-            Double[] location7 = {790d, 146d};
-            truecorrdinatelist.add(location7);//MISHA
-            Double[] location5 = {863d, 140d};
-            truecorrdinatelist.add(location5);//CITY
+//            Double[] location7 = {790d, 146d};
+//            truecorrdinatelist.add(location7);//JNBY
+//            Double[] location5 = {863d, 140d};
+//            truecorrdinatelist.add(location5);//Donoratico
             Double[] location1 = {926d, 137d};
-            truecorrdinatelist.add(location1);//VERO
+            truecorrdinatelist.add(location1);//MarisFrolg
             Double[] location4 = {1012d, 138d};
-            truecorrdinatelist.add(location4);//VERO
+            truecorrdinatelist.add(location4);//Ochrily
+            Double[] locatione = {1087d, 143d};
+            truecorrdinatelist.add(locatione);//阿芙
+            Double[] locationf = {1171d, 155d};
+            truecorrdinatelist.add(locationf);//blue erdos
             //输出真实点表:黑色
             g.setColor(Color.black);
             for (Double[] location : truecorrdinatelist) {
@@ -74,14 +78,18 @@ public class Main13 extends JFrame {
             Double answers[][]=new Double[4][2];
             //构建虚拟坐标点表
             ArrayList<Double[]> corrdinatelist=new ArrayList<>();
-            Double[] locationa = {790d, 91d};
-            corrdinatelist.add(locationa);//VERO
-            Double[] locationb = {857d, 88d};
-            corrdinatelist.add(locationb);//VERO
+//            Double[] locationa = {790d, 91d};
+//            corrdinatelist.add(locationa);//JNBY
+//            Double[] locationb = {857d, 88d};
+//            corrdinatelist.add(locationb);//Donoratico
             Double[] locationc = {921d, 87d};
-            corrdinatelist.add(locationc);//VERO
+            corrdinatelist.add(locationc);//MarisFrolg
             Double[] locationd = {1011d, 88d};
-            corrdinatelist.add(locationd);//VERO
+            corrdinatelist.add(locationd);//Ochrily
+            Double[] location2 = {1088d, 132d};
+            corrdinatelist.add(location2);//阿芙
+            Double[] location3 = {1174d, 103d};
+            corrdinatelist.add(location3);//blue erdos
 
             //四个坐标点的情况:依次去除一个坐标点, 重复四次
             for (int j = 0; j < corrdinatelist.size(); j++) {
