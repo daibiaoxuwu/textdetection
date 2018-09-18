@@ -24,26 +24,34 @@ public class Main13 extends JFrame {
 //        colors[1]=Color.red;
 //        colors[2]=Color.orange;
 //        colors[3]=Color.black;
-        final Double[] truth = {1100d, 191d};
+        final Double[] truth = {1450d, 236d};
         for (int i = 0; i < 1; i++) {
 
             final List<Double[]> truecorrdinatelist = new ArrayList<>();
             final List<Integer> direction = new ArrayList<>();
 
-            //构建truecorrdinatelist 真实点表
+            //构建truecorrdinatelist 真实点表 招牌的实际位置
 //            Double[] location7 = {790d, 146d};
 //            truecorrdinatelist.add(location7);//JNBY
 //            Double[] location5 = {863d, 140d};
 //            truecorrdinatelist.add(location5);//Donoratico
-            Double[] location1 = {926d, 137d};
-            truecorrdinatelist.add(location1);//MarisFrolg
-            Double[] location4 = {1012d, 138d};
+//            Double[] location1 = {926d, 137d};
+//            truecorrdinatelist.add(location1);//MarisFrolg
+//            Double[] location4 = {1012d, 138d};
+//            truecorrdinatelist.add(location4);//Ochrily
+//            Double[] locatione = {1087d, 143d};
+//            truecorrdinatelist.add(locatione);//阿芙
+//            Double[] locationf = {1171d, 155d};
+//            truecorrdinatelist.add(locationf);//blue erdos
+            Double[] location1 = {1357d, 188d};
+            truecorrdinatelist.add(location1);//MsFlora
+            Double[] location4 = {1426d, 196d};
             truecorrdinatelist.add(location4);//Ochrily
-            Double[] locatione = {1087d, 143d};
+            Double[] locatione = {1484d, 196d};
             truecorrdinatelist.add(locatione);//阿芙
-            Double[] locationf = {1171d, 155d};
+            Double[] locationf = {1548d, 288d};
             truecorrdinatelist.add(locationf);//blue erdos
-            //输出真实点表:黑色
+//            输出真实点表:黑色
             g.setColor(Color.black);
             for (Double[] location : truecorrdinatelist) {
                 TextDetection3.drawCircle(location[0], location[1], 0.3, g);
@@ -76,20 +84,28 @@ public class Main13 extends JFrame {
             double turnangle = Math.PI / 100 * i * 2;
             double diffp[][]=new double[4][4];
             Double answers[][]=new Double[4][2];
-            //构建虚拟坐标点表
+            //构建虚拟坐标点表 店中心的位置
             ArrayList<Double[]> corrdinatelist=new ArrayList<>();
 //            Double[] locationa = {790d, 91d};
 //            corrdinatelist.add(locationa);//JNBY
 //            Double[] locationb = {857d, 88d};
 //            corrdinatelist.add(locationb);//Donoratico
-            Double[] locationc = {921d, 87d};
-            corrdinatelist.add(locationc);//MarisFrolg
-            Double[] locationd = {1011d, 88d};
-            corrdinatelist.add(locationd);//Ochrily
-            Double[] location2 = {1088d, 132d};
-            corrdinatelist.add(location2);//阿芙
-            Double[] location3 = {1174d, 103d};
-            corrdinatelist.add(location3);//blue erdos
+//            Double[] locationc = {921d, 87d};
+//            corrdinatelist.add(locationc);//MarisFrolg
+//            Double[] locationd = {1011d, 88d};
+//            corrdinatelist.add(locationd);//Ochrily
+//            Double[] location2 = {1088d, 132d};
+//            corrdinatelist.add(location2);//阿芙
+//            Double[] location3 = {1174d, 103d};
+//            corrdinatelist.add(location3);//blue erdos
+            Double[] locationc = {1351d, 143d};
+            corrdinatelist.add(locationc);//MsFlora
+            Double[] locationd = {1418d, 146d};
+            corrdinatelist.add(locationd);//STACCATO
+            Double[] location2 = {1473d, 174d};
+            corrdinatelist.add(location2);//木九十
+            Double[] location3 = {1552d, 273d};
+            corrdinatelist.add(location3);//OVER SEA
 
             //四个坐标点的情况:依次去除一个坐标点, 重复四次
             for (int j = 0; j < corrdinatelist.size(); j++) {

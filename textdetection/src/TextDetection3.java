@@ -9,7 +9,7 @@ public class TextDetection3 {
     static void drawCircle(double x, double y, double r, Graphics g) {
 
         final double comp = 1;
-        int xc = (int) (x * comp) - 500;
+        int xc = (int) (x * comp) - 900;
 //        if(xc>900) System.out.println("xcbig");
         int yc = (int) (y * comp) + 500;
 //        if(yc>900) System.out.println("ycbig");
