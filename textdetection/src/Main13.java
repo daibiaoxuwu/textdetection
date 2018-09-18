@@ -24,7 +24,7 @@ public class Main13 extends JFrame {
 //        colors[1]=Color.red;
 //        colors[2]=Color.orange;
 //        colors[3]=Color.black;
-        final Double[] truth = {546d, 163d};
+        final Double[] truth = {544d, 244d};
         for (int i = 0; i < 1; i++) {
 
             final List<Double[]> truecorrdinatelist = new ArrayList<>();
@@ -59,14 +59,20 @@ public class Main13 extends JFrame {
 //            truecorrdinatelist.add(locatione);
 //            Double[] locationf = {1644d, 395d};
 //            truecorrdinatelist.add(locationf);
-            Double[] location1 = {418d, 94d};
-            truecorrdinatelist.add(location1);
-            Double[] location4 = {528d, 101d};
-            truecorrdinatelist.add(location4);
-            Double[] locatione = {609d, 140d};
-            truecorrdinatelist.add(locatione);
+//            Double[] location1 = {418d, 94d};
+//            truecorrdinatelist.add(location1);
+//            Double[] location4 = {528d, 101d};
+//            truecorrdinatelist.add(location4);
+//            Double[] locatione = {609d, 140d};
+//            truecorrdinatelist.add(locatione);
             Double[] locationf = {619d, 193d};
             truecorrdinatelist.add(locationf);
+            Double[] locatione = {603d, 263d};
+            truecorrdinatelist.add(locatione);
+            Double[] location4 = {505d, 288d};
+            truecorrdinatelist.add(location4);
+            Double[] location1 = {401d, 245d};
+            truecorrdinatelist.add(location1);
 //            输出真实点表:黑色
             g.setColor(Color.black);
             for (Double[] location : truecorrdinatelist) {
@@ -128,14 +134,21 @@ public class Main13 extends JFrame {
 //            corrdinatelist.add(location2);//belle
 //            Double[] location7 = {1644d, 395d};
 //            corrdinatelist.add(location7);//maybelline new york
-            Double[] location3 = {414d, 78d};
-            corrdinatelist.add(location3);//TR/BECA
-            Double[] location5 = {533d, 70d};
-            corrdinatelist.add(location5);//XII basket
-            Double[] location2 = {613d, 87d};
-            corrdinatelist.add(location2);//播
+//            Double[] location3 = {414d, 78d};
+//            corrdinatelist.add(location3);//TR/BECA
+//            Double[] location5 = {533d, 70d};
+//            corrdinatelist.add(location5);//XII basket
+//            Double[] location2 = {613d, 87d};
+//            corrdinatelist.add(location2);//播
             Double[] location7 = {640d, 192d};
             corrdinatelist.add(location7);//CAPFANS
+            Double[] location3 = {622d, 316d};
+            corrdinatelist.add(location3);//mind bridge
+            Double[] location5 = {509d, 343d};
+            corrdinatelist.add(location5);//lily
+            Double[] location2 = {193d, 161d};
+            corrdinatelist.add(location2);//gap
+
 
             //四个坐标点的情况:依次去除一个坐标点, 重复四次
             for (int j = 0; j < corrdinatelist.size(); j++) {
