@@ -24,7 +24,7 @@ public class Main13 extends JFrame {
 //        colors[1]=Color.red;
 //        colors[2]=Color.orange;
 //        colors[3]=Color.black;
-        final Double[] truth = {1450d, 236d};
+        final Double[] truth = {1554d, 361d};
         for (int i = 0; i < 1; i++) {
 
             final List<Double[]> truecorrdinatelist = new ArrayList<>();
@@ -43,14 +43,22 @@ public class Main13 extends JFrame {
 //            truecorrdinatelist.add(locatione);//阿芙
 //            Double[] locationf = {1171d, 155d};
 //            truecorrdinatelist.add(locationf);//blue erdos
-            Double[] location1 = {1357d, 188d};
-            truecorrdinatelist.add(location1);//MsFlora
-            Double[] location4 = {1426d, 196d};
-            truecorrdinatelist.add(location4);//Ochrily
-            Double[] locatione = {1484d, 196d};
-            truecorrdinatelist.add(locatione);//阿芙
-            Double[] locationf = {1548d, 288d};
-            truecorrdinatelist.add(locationf);//blue erdos
+//            Double[] location1 = {1357d, 188d};
+//            truecorrdinatelist.add(location1);
+//            Double[] location4 = {1426d, 196d};
+//            truecorrdinatelist.add(location4);
+//            Double[] locatione = {1484d, 196d};
+//            truecorrdinatelist.add(locatione);
+//            Double[] locationf = {1548d, 288d};
+//            truecorrdinatelist.add(locationf);
+            Double[] location1 = {1577d, 321d};
+            truecorrdinatelist.add(location1);
+            Double[] location4 = {1378d, 392d};
+            truecorrdinatelist.add(location4);
+            Double[] locatione = {1545d, 409d};
+            truecorrdinatelist.add(locatione);
+            Double[] locationf = {1644d, 395d};
+            truecorrdinatelist.add(locationf);
 //            输出真实点表:黑色
             g.setColor(Color.black);
             for (Double[] location : truecorrdinatelist) {
@@ -98,14 +106,20 @@ public class Main13 extends JFrame {
 //            corrdinatelist.add(location2);//阿芙
 //            Double[] location3 = {1174d, 103d};
 //            corrdinatelist.add(location3);//blue erdos
-            Double[] locationc = {1351d, 143d};
-            corrdinatelist.add(locationc);//MsFlora
-            Double[] locationd = {1418d, 146d};
-            corrdinatelist.add(locationd);//STACCATO
-            Double[] location2 = {1473d, 174d};
-            corrdinatelist.add(location2);//木九十
+//            Double[] locationc = {1351d, 143d};
+//            corrdinatelist.add(locationc);//MsFlora
+//            Double[] locationd = {1418d, 146d};
+//            corrdinatelist.add(locationd);//STACCATO
+//            Double[] location2 = {1473d, 174d};
+//            corrdinatelist.add(location2);//木九十
             Double[] location3 = {1552d, 273d};
             corrdinatelist.add(location3);//OVER SEA
+            Double[] location5 = {1371d, 398d};
+            corrdinatelist.add(location5);//crosstime
+            Double[] location2 = {1542d, 444d};
+            corrdinatelist.add(location2);//belle
+            Double[] location7 = {1644d, 395d};
+            corrdinatelist.add(location7);//maybelline new york
 
             //四个坐标点的情况:依次去除一个坐标点, 重复四次
             for (int j = 0; j < corrdinatelist.size(); j++) {
