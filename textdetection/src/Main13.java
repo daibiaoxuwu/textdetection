@@ -259,6 +259,41 @@ public class Main13 extends JFrame {
             System.out.println(dx + " " + dy + " " +
                     TextDetection3.dis(new Double[]{dx,dy},truth));
 
+            //尝试2:加权平均值 颜色:绿色
+            double dx2=0.0, dy2=0.0, da2=0.0;
+            for(int j=0;j<4;++j){
+                double ds = 1/(diffp[j][0]+diffp[j][1]+diffp[j][2]+diffp[j][3]);
+                dx2+=answers[j][0]*ds;
+                dy2+=answers[j][1]*ds;
+                da2+=ds;
+            }
+            dx2/=da2;
+            dy2/=da2;
+            g.setColor(Color.GREEN);
+            TextDetection3.drawCircle(dx2,dy2, 0.1, g);
+//不知道要不要加:相当于将基准点从"加权平均值"移动到"普通平均值"
+            //哦 天哪 加权平均值好像加权反了 咱们去版本14吧.
+//                    dx=2*dx0-dx;
+//                    dy=2*dy0-dy;
+
+            //两两比较三点定位的结果,计算偏转向量
+            for(int j=0;j<4;++j){
+                for(int j1=0;j1<4;++j1){//双方被去掉的点既是对方的弱点
+                    if(j==j1)continue;
+                    double diff1=diffp[j1][j];//去掉j1后 j的不确定度 也就是第j1组中第j个点
+                    double diff2=diffp[j][j1];
+//                            double mid = -(1/diff1-1/diff2)/(1/diff1+1/diff2)/8;
+                    double mid = (diff1-diff2)/(diff1+diff2)/8;
+                    dx2+=(answers[j][0]-answers[j1][0])*mid;
+                    dy2+=(answers[j][1]-answers[j1][1])*mid;
+                }
+            }
+            //大粉:最后的定位结果
+            g.setColor(Color.pink);
+            TextDetection3.drawCircle(dx2,dy2, 0.1, g);
+            System.out.println(dx2 + " " + dy2 + " " +
+                    TextDetection3.dis(new Double[]{dx2,dy2},truth));
+
         }
     }
 
